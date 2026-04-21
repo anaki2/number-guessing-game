@@ -19,13 +19,15 @@ positions = ["Your Past", "Your Present", "Your Near Future", "Your Outcome"]
 
 print("I am Madame Sylvia, and I have chosen a number between the numbers we have which are 12 cards.")
 print()
-print("Do you dare to read my mind?")
-print()
 
 name = input("What is your name? ")
 print()
 print("Ah, " + name + "... the cards have been waiting for you.")
 print()
+
+answer = input("Do you dare read my mind? (yes/no) ")
+print()
+print("Ok, " + name + ", let's see what the cards have to say about your past, present, and future...")
 
 # Shuffle and pick 12 cards to show
 random.shuffle(cards)
