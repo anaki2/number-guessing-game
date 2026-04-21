@@ -17,8 +17,9 @@ cards = [
 
 positions = ["Your Past", "Your Present", "Your Near Future", "Your Outcome"]
 
-print("Welcome to Madame Sylvia's Fortune Telling Card Reading!")
-print("----------------------------------------------------------")
+print("I am Madame Sylvia, and I have chosen a number between the numbers we have which are 12 cards.")
+print()
+print("Do you dare to read my mind?")
 print()
 
 name = input("What is your name? ")
